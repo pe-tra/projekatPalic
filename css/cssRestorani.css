@@ -1,0 +1,365 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, Garamond, serif;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: #0065c0;
+    top: 0;
+    z-index: 1;
+    display: inline-block;
+    justify-content: center;
+}
+
+th + th {
+    height: 25px;
+}
+
+tr td {
+    justify-content: space-between;
+    text-align: center;
+    font-size: 80%;
+}
+    tr td a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.4em;
+    }
+.toranj{
+    margin:0;
+    width:50px;
+}
+
+nav{
+    margin-top:-1.7em;
+    margin-left:50px;
+}
+ul.navigacija li a{
+    text-decoration:none;
+    color:white;
+}
+.navigacija{
+    width:100%;
+    text-align:center;
+}
+ul.navigacija li {
+    list-style:none;
+    font-size:1.3em;
+    display: inline;
+    text-align:center;
+    padding:4%;
+}
+.listaNav, .dropdown{
+    text-align:center;
+    justify-content:space-between;
+}
+.listaNav a{
+    padding-left:0.5em;
+    padding-right:0.5em;
+}
+
+.listaNav a:hover, .dropdownBTN:hover{
+    transition: 0.6s ease;
+    background-color:#7FB2DF;
+}
+
+a{
+    text-decoration:none;
+}
+
+button{
+    background-color:transparent;
+    border:none;
+}
+
+.dropdownBTN{
+      color: white;
+      cursor: pointer;
+      font-size:1em;
+      padding-left:0.5em;
+      padding-right:0.5em;
+}
+
+.dropdown{
+      position: relative;
+      justify-content:space-between;
+      text-align:center;
+}
+
+.dropdownSadrzaj{
+      display: none;
+      position: absolute;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      background-color: #A5C9E8;
+}
+
+.dropdownSadrzaj li a {
+      padding: 8px;
+      display: block;
+      font-size:0.6em;
+}
+
+.dropdownSadrzaj a:hover {background-color: #BFD8EF;}
+
+.dropdown:hover .dropdownSadrzaj {
+  display: block;
+  margin-left:65%;
+}
+
+
+td {
+    border: 0.02em solid transparent;
+    padding: 0;
+}
+
+
+.kolona {
+    margin-top: 1em;
+    float: left;
+    padding: 10px;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.levi, .desni {
+    width: 25%;
+    margin-top: 1em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.srednji {
+    width: 50%;
+}
+
+
+.red:after {
+    display: table;
+    clear: both;
+}
+
+p {
+    margin-top: 1em;
+    font-size: 1.5em;
+}
+
+    p + p {
+        font-size: 2em;
+        color: #7FB2DF;
+    }
+
+.belaPozadina {
+    background-color: white;
+    border-radius: 7px;
+    opacity: 0.7;
+}
+
+.ponudaRes li {
+    font-size: 80%;
+    margin: auto;
+    list-style-type: none;
+}
+
+#ponuda li {
+    font-size: 1.4em;
+    max-width: 200px;
+    margin: auto;
+}
+
+.restoraniTab {
+    margin-top: 3em;
+    width: 100%;
+    border: 0;
+    display: table;
+    border-spacing: 2em 1.5em;
+    border-collapse: separate;
+}
+
+    .restoraniTab tr td {
+        font-size: 2em;
+        padding: 1em;
+    }
+
+    .restoraniTab td {
+        width: 35%;
+    }
+
+        .restoraniTab td img {
+            width: 90%;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        }
+
+.slikeRes {
+    margin: 0;
+    text-align: center;
+}
+
+    .slikeRes img {
+        margin-bottom: 3em;
+        width: 85%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+.linija {
+    width: 100px;
+    height: 4px;
+    background: #7FB2DF;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+h1 {
+    margin-top: 2em;
+    text-align: center;
+    font-size: 3em;
+    color: #0065c0;
+}
+
+.shadow {
+    filter: drop-shadow(0 0 0.8rem white);
+}
+@media only screen and (max-width:1200px){
+
+    ul.navigacija li{
+        font-size:1em;
+    }
+    nav {
+        margin-top: -1.2em;
+    }
+}
+@media only screen and (max-width:1000px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    li {
+        font-size: 1.1em;
+    }
+
+    .restoraniTab tr td {
+        font-size: 1.5em;
+    }
+}
+@media only screen and (max-width:860px){
+
+    ul.navigacija li{
+        font-size:0.8em;
+    }
+
+}
+@media only screen and (max-width:802px) {
+
+    p {
+        font-size: 1em;
+    }
+
+    li {
+        font-size: 0.8em;
+    }
+
+    .srednji {
+        margin: 0;
+    }
+
+    tr td a {
+        font-size: 0.9em;
+    }
+
+    .restoraniTab tr td {
+        font-size: 1.2em;
+        width: 100%;
+        display: block;
+    }
+
+    .restoraniTab {
+        display: block;
+        margin: 0;
+    }
+
+    .slikeRes tr td {
+        margin: auto;
+        width: 100%;
+        display: block;
+    }
+
+    #pepperMill td {
+        width: 100%;
+    }
+}
+
+
+@media only screen and (max-width:700px){
+
+    .toranj {
+        display: none;
+    }
+
+    ul.navigacija li {
+        padding:1%;
+    }
+    nav{
+        margin:1em 0;
+    }
+    .dropdownSadrzaj li a{
+        display:none;
+    }
+}
+
+
+@media only screen and (max-width:600px) {
+    .hidden {
+        display: none;
+    }
+
+    .restoraniTab tr td {
+        font-size: 1em;
+    }
+
+    .kolona {
+        width: 100%;
+    }
+
+    img + img {
+        display: none;
+    }
+
+    h1 {
+        font-size: 1.7em;
+    }
+
+    p {
+        font-size: 1.2em;
+    }
+
+    .levi, .desni {
+        margin-top: 0;
+    }
+
+    #ponuda {
+        margin: auto;
+        width: 250px;
+        font-size: 0.7em;
+    }
+}
+@media only screen and (max-width:480px){
+    ul.navigacija li{
+        font-size:0.5em;
+    }
+}
+@media only screen and (max-width:400px) {
+
+    h1 {
+        font-size: 1.3em;
+    }
+
+    p {
+        font-size: 0.8em;
+    }
+}
