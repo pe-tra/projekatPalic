@@ -1,0 +1,183 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{062E0712-092F-4167-916A-AE15B23CE0B4}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>RIPR_Projekat_PetraOstrogonacPIN08020</RootNamespace>
+    <AssemblyName>RIPR-Projekat-PetraOstrogonacPIN08020</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="blog.html" />
+    <Content Include="corsaroUno.html" />
+    <Content Include="css\cssBlog.css" />
+    <Content Include="css\cssInfo.css" />
+    <Content Include="css\cssPocetna.css" />
+    <Content Include="css\cssListe.css" />
+    <Content Include="css\cssRestorani.css" />
+    <Content Include="css\cssVinarije.css" />
+    <Content Include="css\cssZooVrt.css" />
+    <Content Include="desavanja.html" />
+    <Content Include="gostionaAbraham.html" />
+    <Content Include="ostaleSlike\jelenSalas6.jpg" />
+    <Content Include="ostaleSlike\jezeroZalazak1.jpg" />
+    <Content Include="ostaleSlike\navigator1.jpg" />
+    <Content Include="ostaleSlike\nebo.jpg" />
+    <Content Include="ostaleSlike\park1.jpg" />
+    <Content Include="ostaleSlike\park2.jpg" />
+    <Content Include="ostaleSlike\parkPas1.jpg" />
+    <Content Include="ostaleSlike\parkPas4.jpg" />
+    <Content Include="ostaleSlike\parkTrka10.jpg" />
+    <Content Include="ostaleSlike\parkTrka13.jpg" />
+    <Content Include="ostaleSlike\prviMaj1.jpg" />
+    <Content Include="ostaleSlike\prviMaj2.jpg" />
+    <Content Include="ostaleSlike\toranj1.jpg" />
+    <Content Include="ostaleSlike\vilaPalic.jpg" />
+    <Content Include="paligoPalata.html" />
+    <Content Include="pepperMill.html" />
+    <Content Include="pepperMillSlike\pmDvoriste14.jpg" />
+    <Content Include="pepperMillSlike\pmDvoriste2.jpg" />
+    <Content Include="pepperMillSlike\pmDvoriste5.jpg" />
+    <Content Include="pepperMillSlike\pmHrana2.JPG" />
+    <Content Include="pepperMillSlike\pmHrana3.JPG" />
+    <Content Include="pepperMillSlike\pmHrana5.jpg" />
+    <Content Include="pepperMillSlike\pmProstorija1.jpg" />
+    <Content Include="pepperMillSlike\pmProstorija10.jpg" />
+    <Content Include="pepperMillSlike\pmProstorija11.jpg" />
+    <Content Include="pepperMillSlike\pmProstorija16.jpg" />
+    <Content Include="pepperMillSlike\pmProstorija2.jpg" />
+    <Content Include="ribljaCarda.html" />
+    <Content Include="pocetna.html" />
+    <Content Include="pozadina1.png" />
+    <Content Include="pozadinaVinarije.png" />
+    <Content Include="restorani.html" />
+    <Content Include="slikeRestorani\abraham1.jpg" />
+    <Content Include="slikeRestorani\abraham2.jpg" />
+    <Content Include="slikeRestorani\abraham5.jpg" />
+    <Content Include="slikeRestorani\abraham6.jpg" />
+    <Content Include="slikeRestorani\corsaro2.jpg" />
+    <Content Include="slikeRestorani\corsaro5.jpg" />
+    <Content Include="slikeRestorani\corsaro6.jpg" />
+    <Content Include="slikeRestorani\paligo1.jpg" />
+    <Content Include="slikeRestorani\paligo4.jpg" />
+    <Content Include="slikeRestorani\paligo5.jpg" />
+    <Content Include="slikeRestorani\rCarda1.jpg" />
+    <Content Include="slikeRestorani\rCarda2.jpg" />
+    <Content Include="slikeRestorani\rCarda3.jpg" />
+    <Content Include="slikeRestorani\rCarda4.jpg" />
+    <Content Include="slikeRestorani\rCarda5.jpg" />
+    <Content Include="slikeRestorani\rCarda7.jpeg" />
+    <Content Include="slikeRestorani\rCarda8.jpeg" />
+    <Content Include="slikeVinarije\vDvor13.jpg" />
+    <Content Include="slikeVinarije\vDvor3.jpg" />
+    <Content Include="slikeVinarije\vinarijaPetra1.jpg" />
+    <Content Include="slikeVinarije\vinarijaPetra2.jpg" />
+    <Content Include="slikeVinarije\zvonkoBogdan1.jpg" />
+    <Content Include="slikeVinarije\zvonkoBogdan3.jpg" />
+    <Content Include="smestaj.html" />
+    <Content Include="vinarijaPetra.html" />
+    <Content Include="vinarije.html" />
+    <Content Include="vinskiDvor.html" />
+    <Content Include="Web.config" />
+    <Content Include="zooVrt.html" />
+    <Content Include="zooVrtSlike\zooVrt1.jpg" />
+    <Content Include="zooVrtSlike\zooVrt2.jpg" />
+    <Content Include="zooVrtSlike\zooVrt3.jpg" />
+    <Content Include="zooVrtSlike\zooVrtSlike1.png" />
+    <Content Include="zooVrtSlike\zooVrtSlike2.png" />
+    <Content Include="zvonkoBogdan.html" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>29984</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:29984/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
